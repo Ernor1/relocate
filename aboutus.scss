@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: DM Sans;
+    background-color:#00a78010;
+    overflow-x: hidden;
+  }
+  .aboutF{
+  .landing {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0% 0% 51px 51px;
+    nav {
+        width: 100%;
+        height: 8%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.575);
+        border: 1px solid white;
+        position: fixed;
+      }
+      
+      nav h3 {
+        font-family: Allura;
+        font-size: 2rem;
+        padding-left: 5%;
+        padding-top: 1.5%;
+        color: cadetblue;
+        width: 20%;
+        display: inline-block;
+      }
+      
+      nav ul {
+        float: right;
+        padding-top: 2%;
+      }
+      
+      nav li {
+        font-size: 1rem;
+        margin-right: 29px;
+        display: inline-block;
+        font-family: DM Sans;
+        font-weight: bold;
+        color:black;
+        text-decoration: none;
+      }
+      nav li a{
+        font-size: 1rem;
+        font-family: DM Sans;
+        font-weight: bold;
+        color:black;
+        text-decoration: none;
+      }
+      
+      nav li a:hover{
+        font-weight: bold;
+        color:#00BEAC;
+        text-decoration: dashed;
+      }
+
+   
+   }
+   .hero{
+       display: grid;
+       width: 100%;
+       height: 100vh;
+       grid-template-columns: repeat(2,50%);
+       grid-template-rows: repeat(2,40%);
+   }
+   .services{
+       grid-column: span 2;
+       margin-left: 2%;
+       display: grid;
+       grid-template-columns: repeat(4,24%);
+       grid-template-rows: repeat(1,100%);
+       grid-gap: 10px;
+
+   }
+footer{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 2%;
+    background-color: #00BEAC;
+    .i{
+        width:100vw;
+        height: 55vh;
+    }
+    .column{
+        width: 100vw;
+        background-color:#003531;
+        height: 85vh;
+    }
+}
+
+
+
+
+
+.col {
+    width:50%;
+    padding-top: 12%;
+    padding-left: 10%;
+    i{
+        
+        padding: 17%;
+    }
+
+    
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+.column {
+    display: flex;
+    color: #fff;
+ 
+}
+.col li a{
+    text-decoration: none;
+    margin-bottom: 50px;
+    align-content: space-between;
+    font-size: 18px;
+    line-height: 38px;
+    color: #fff;
+}
+
+.col  h3{
+    padding-top: 20%;
+}
+#b{
+    padding-bottom: 10%;
+}
+
+.s-box{
+    border: 1px solid grey;
+    i{
+        padding-left: 30%;
+        padding-bottom: 10%;
+    }
+    p{
+        text-align: center;
+        width:80%
+    }
+}
+.about{
+    margin-left: 10%;
+    p{
+        width:60%
+    }
+}
+.OurMission{
+    margin-left: 10%;
+    p{
+        width: 60%;
+    }
+}
+.image{
+    height: 90vh;
+    background-image: url("./stephen-t-king-hx3NcvI6I_w-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: slide 10s infinite;
+}
+@keyframes slide{
+    25%{
+        background-image: url("./abhishek-donda-7h7NCXp9eZ0-unsplash.jpg");
+        background-size: 100% 100%;
+         background-repeat: no-repeat;
+    }
+    
+ 
+}
+}
